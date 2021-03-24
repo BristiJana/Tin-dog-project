@@ -1,0 +1,198 @@
+body
+{
+	font-family: "Montserrat-Black", sans-serif;	
+	text-align:center;
+}
+h1,h2,h3,h4,h5,h6
+{
+	font-family: "Montserrat-Black", sans-serif;
+}
+h2{
+	font-size:3rem;
+	line-height: 1.5;
+}
+h3
+{
+	line-height: 1.5rem;
+}
+
+p{
+	color:#8f8f8f;
+}
+.big-heading
+{
+	font-size: 3.5rem;
+	line-height: 1.5;
+}
+/*container*/
+.container-fluid
+{
+	padding:  7% 15%;
+}
+/*sections*/
+
+.colored-section
+{
+ background-color: #ff4c68;
+	color:#fff;
+}
+.white-section
+{
+ background-color: #fff;
+}
+
+/*navbar*/
+.navbar
+{   
+	/*top  left and right bottom*/
+	padding: 0 0 4.5rem;
+}
+.navbar-brand
+{
+	font-family:"Ubuntu";
+	font-size: 2.5rem;
+	font-weight: bold;
+}
+.nav-item
+{
+	padding:0 18px;
+}
+.nav-link
+{
+	font-size:1.2rem;
+	font-family: "Montserrat-Light";
+	line-height: 1.5;
+}
+/*download button*/
+.downloadbtn
+{
+	margin: 5% 3% 5% 0;
+}
+/*title image*/
+.timage
+{
+	width:60%;
+	transform: rotate(25deg);
+	position: absolute;
+	right:30%;
+}
+/*title section*/
+#title
+{
+	
+	text-align:left;
+}
+#title .container-fluid
+{
+	padding:3% 15% 7%;
+}
+ /*feature section*/
+
+ #features
+ {
+ 	
+
+ 	position: relative;
+ 	z-index: 1;
+ 	
+ }
+ .feature-box
+ {
+ 	
+ 	padding: 2%;
+ }
+ .icon
+ {
+ 	color:#ef8172;
+ 	margin-bottom: 1rem;
+ }
+ .icon:hover
+ {
+ 	color:#ff4c68;
+ }
+
+ /*testimonial section*/
+
+ #testimonials
+ {
+ 	
+ 	
+ 	background-color: #ef8172;
+ 	
+ }
+ .testim
+ {
+ 	width:10%;
+ 	border-radius: 100%;
+ 	margin: 20px;
+ }
+
+ /*press section*/
+ 
+ #press
+ {
+ 	background-color: #ef8172;
+ 	
+ 	padding-bottom: 3%;
+ }
+ .pimg
+ {
+ 	width:15%;
+ 	margin:20px 20px 50px;
+ }
+
+ /*pricing section*/
+
+ #pricing
+ {
+ 	padding:100px;
+ 	
+ }
+ .prc
+ {
+ 	padding: 3% 2%;
+
+ }
+
+ /*call to action section*/
+
+ #cta
+ {
+ 	
+ 	font-family: "Montserrat-Black", sans-serif;
+ 	
+
+ 	
+ }
+ 
+ .cb
+ {
+ 	margin-top:40px;
+ }
+/*footer*/
+
+#footer
+{
+	
+	
+	
+}
+
+.ficon
+{
+	margin:20px 10px;
+}
+ /*breakpoints*/
+
+ @media (max-width:1028px)
+ {
+ 	#title
+ 	{
+ 		text-align:center;
+ 	}
+ 	.timage
+ 	{
+ 		position:static;
+ 		transform: rotate(0);
+ 	}
+ }
